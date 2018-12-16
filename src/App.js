@@ -9,6 +9,7 @@ import styled from 'styled-components';
 import Header from './components/Header';
 import Menu from './components/Menu';
 import Main from './components/Main';
+import Slider from './components/Slider';
 
 const url = process.env.PUBLIC_URL + '/img/bg.png';
 
@@ -48,7 +49,6 @@ class App extends Component {
             <Main />
           </Grid>
         </MainWrapper>
-        <Main />
       </div>
     );
   }
